@@ -1,8 +1,8 @@
 use std::io;
 use rand::Rng;// used to random number
 use std::cmp::Ordering;
-use std::io::{Read, BufRead};
-use std::fs::read;
+use std::io::BufRead;
+//use std::fs::read;
 
 fn main(){
     println!("Guess the number!");
@@ -15,7 +15,7 @@ fn main(){
         //    println!("Please input you guess: ");
         println!("Please type the {}[st,nd,rd,th] magic number: ",count);
 
-        let mut magic: i32 = io::stdin().lock()//trying to input integer
+        let magic: i32 = io::stdin().lock()//trying to input integer
             .lines()
             .next()
             .expect("stdin should be available")
