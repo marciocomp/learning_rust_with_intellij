@@ -68,6 +68,14 @@ fn main() {
 
     /************END NUMERIC OPERATIONS************/
 
+    /************BOOLEAN************/
+
+        let learning_rust = true;
+        let give_up: bool = false;
+        let success = learning_rust && !give_up;// A simple boolean operation
+        println!("Success: {}", success); // ;)
+
+    /************BOOLEAN************/
 
 
 }
