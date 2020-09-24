@@ -22,11 +22,7 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9039e2e8-c488-46c2-98af-34850d4f2897" name="Default Changelist" comment="Guessing game: the 1st example of the book (Rust Land).">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
-    </list>
+    <list default="true" id="9039e2e8-c488-46c2-98af-34850d4f2897" name="Default Changelist" comment="Guessing game: the 3rd example of the book (Rust Land)." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +78,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600910967657</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Guessing game: the 2nd example of the book (Rust Land).">
+      <created>1600911342470</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600911342470</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Guessing game: the 3rd example of the book (Rust Land).">
+      <created>1600911564042</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600911564042</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +108,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Guessing game: the 1st example of the book (Rust Land)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Guessing game: the 1st example of the book (Rust Land)." />
+    <MESSAGE value="Guessing game: the 2nd example of the book (Rust Land)." />
+    <MESSAGE value="Guessing game: the 3rd example of the book (Rust Land)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Guessing game: the 3rd example of the book (Rust Land)." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1314" height="165" key="GridCell.Tab.0.bottom" timestamp="1600911521714">
+      <screen x="1360" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="165" key="GridCell.Tab.0.bottom/1360.0.1360.768/0.24.1360.720@1360.0.1360.768" timestamp="1600911521714" />
+    <state width="1314" height="165" key="GridCell.Tab.0.center" timestamp="1600911521713">
+      <screen x="1360" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="165" key="GridCell.Tab.0.center/1360.0.1360.768/0.24.1360.720@1360.0.1360.768" timestamp="1600911521713" />
+    <state width="1314" height="165" key="GridCell.Tab.0.left" timestamp="1600911521713">
+      <screen x="1360" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="165" key="GridCell.Tab.0.left/1360.0.1360.768/0.24.1360.720@1360.0.1360.768" timestamp="1600911521713" />
+    <state width="1314" height="165" key="GridCell.Tab.0.right" timestamp="1600911521714">
+      <screen x="1360" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="165" key="GridCell.Tab.0.right/1360.0.1360.768/0.24.1360.720@1360.0.1360.768" timestamp="1600911521714" />
+    <state x="1635" y="119" width="800" height="540" key="Vcs.Push.Dialog.v2" timestamp="1600911367467">
+      <screen x="1360" y="0" width="1360" height="768" />
+    </state>
+    <state x="1635" y="119" width="800" height="540" key="Vcs.Push.Dialog.v2/1360.0.1360.768/0.24.1360.720@1360.0.1360.768" timestamp="1600911367467" />
   </component>
 </project>
