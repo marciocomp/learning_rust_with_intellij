@@ -16,6 +16,20 @@ fn main() {
 
     println!("The value of x is: {}", x);
 
+    //Testing more difference bw mut and shadow
+
+    let spaces = "     ";//it's a string
+    let spaces  = spaces.len(); //number type -> :usize
+    println!("Spaces: {}",spaces);
+    // When we use shadow we can avoid to use spaces_str and spaces_num. We just can reuse the simpler
+    // spaces name
+
+    //Error example
+    // let mut spaces = "    ";
+    // spaces = spaces.len();
+
+
+
 
 
 
