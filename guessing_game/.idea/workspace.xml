@@ -22,7 +22,10 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9039e2e8-c488-46c2-98af-34850d4f2897" name="Default Changelist" comment="Guessing game: the 4th example of the book (Rust Land). Add loop." />
+    <list default="true" id="9039e2e8-c488-46c2-98af-34850d4f2897" name="Default Changelist" comment="Guessing game: It was showing some warnings. Now it's ok.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guessing_game.iml" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +64,7 @@
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -106,7 +110,28 @@
       <option name="project" value="LOCAL" />
       <updated>1600911916437</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Guessing game: the final example of the book (Rust Land).">
+      <created>1600912024811</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600912024811</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Guessing game: I try to change some piece of code to read a integer in user input. It's having some warnings! :(">
+      <created>1600912188915</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600912188915</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Guessing game: It was showing some warnings. Now it's ok.">
+      <created>1600912296296</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600912296296</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +144,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Guessing game: the 1st example of the book (Rust Land)." />
@@ -127,28 +153,31 @@
     <MESSAGE value="Guessing game: the 3rd example of the book (Rust Land).  It converts string to number to compare guess and secret_number" />
     <MESSAGE value="Guessing game: the 3rd example of the book (Rust Land). It converts string to number to compare guess and secret_number" />
     <MESSAGE value="Guessing game: the 4th example of the book (Rust Land). Add loop." />
-    <option name="LAST_COMMIT_MESSAGE" value="Guessing game: the 4th example of the book (Rust Land). Add loop." />
+    <MESSAGE value="Guessing game: the final example of the book (Rust Land)." />
+    <MESSAGE value="Guessing game: I try to change some piece of code to read a integer in user input. It's having some warnings! :(" />
+    <MESSAGE value="Guessing game: It was showing some warnings. Now it's ok." />
+    <option name="LAST_COMMIT_MESSAGE" value="Guessing game: It was showing some warnings. Now it's ok." />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1314" height="165" key="GridCell.Tab.0.bottom" timestamp="1600912001644">
+    <state width="1314" height="165" key="GridCell.Tab.0.bottom" timestamp="1600912631525">
       <screen x="1360" y="0" width="1360" height="768" />
     </state>
-    <state width="1314" height="165" key="GridCell.Tab.0.bottom/1360.0.1360.768/0.24.1360.720@1360.0.1360.768" timestamp="1600912001644" />
-    <state width="1314" height="165" key="GridCell.Tab.0.center" timestamp="1600912001644">
+    <state width="1314" height="165" key="GridCell.Tab.0.bottom/1360.0.1360.768/0.24.1360.720@1360.0.1360.768" timestamp="1600912631525" />
+    <state width="1314" height="165" key="GridCell.Tab.0.center" timestamp="1600912631525">
       <screen x="1360" y="0" width="1360" height="768" />
     </state>
-    <state width="1314" height="165" key="GridCell.Tab.0.center/1360.0.1360.768/0.24.1360.720@1360.0.1360.768" timestamp="1600912001644" />
-    <state width="1314" height="165" key="GridCell.Tab.0.left" timestamp="1600912001643">
+    <state width="1314" height="165" key="GridCell.Tab.0.center/1360.0.1360.768/0.24.1360.720@1360.0.1360.768" timestamp="1600912631525" />
+    <state width="1314" height="165" key="GridCell.Tab.0.left" timestamp="1600912631524">
       <screen x="1360" y="0" width="1360" height="768" />
     </state>
-    <state width="1314" height="165" key="GridCell.Tab.0.left/1360.0.1360.768/0.24.1360.720@1360.0.1360.768" timestamp="1600912001643" />
-    <state width="1314" height="165" key="GridCell.Tab.0.right" timestamp="1600912001644">
+    <state width="1314" height="165" key="GridCell.Tab.0.left/1360.0.1360.768/0.24.1360.720@1360.0.1360.768" timestamp="1600912631524" />
+    <state width="1314" height="165" key="GridCell.Tab.0.right" timestamp="1600912631525">
       <screen x="1360" y="0" width="1360" height="768" />
     </state>
-    <state width="1314" height="165" key="GridCell.Tab.0.right/1360.0.1360.768/0.24.1360.720@1360.0.1360.768" timestamp="1600912001644" />
-    <state x="1635" y="119" width="800" height="540" key="Vcs.Push.Dialog.v2" timestamp="1600911367467">
+    <state width="1314" height="165" key="GridCell.Tab.0.right/1360.0.1360.768/0.24.1360.720@1360.0.1360.768" timestamp="1600912631525" />
+    <state x="1635" y="119" width="800" height="540" key="Vcs.Push.Dialog.v2" timestamp="1600912310904">
       <screen x="1360" y="0" width="1360" height="768" />
     </state>
-    <state x="1635" y="119" width="800" height="540" key="Vcs.Push.Dialog.v2/1360.0.1360.768/0.24.1360.720@1360.0.1360.768" timestamp="1600911367467" />
+    <state x="1635" y="119" width="800" height="540" key="Vcs.Push.Dialog.v2/1360.0.1360.768/0.24.1360.720@1360.0.1360.768" timestamp="1600912310904" />
   </component>
 </project>
