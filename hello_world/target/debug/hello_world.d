@@ -1,0 +1,1 @@
+/media/marcio/GENERAL\ DATA/intellij_idea/learning_rust_with_intellij/hello_world/target/debug/hello_world: /media/marcio/GENERAL\ DATA/intellij_idea/learning_rust_with_intellij/hello_world/src/main.rs
