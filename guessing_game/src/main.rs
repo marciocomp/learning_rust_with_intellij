@@ -7,7 +7,7 @@ fn main(){
 
     let secret_number= rand::thread_rng().gen_range(1, 101); //generate a number. No seed is used - immutable value
 
-    println!("The secret number is: {}",secret_number);
+    // println!("The secret number is: {}",secret_number);
     loop {
 
         println!("Please input you guess.");
@@ -18,8 +18,12 @@ fn main(){
             .read_line(&mut guess)
             .expect("Failed to read line");
 
-        let guess:u32 = guess.trim()
-            .parse().expect("Please type a number!");//It converts string to number -> u32
+        let guess:u32 = match guess.trim()
+            .parse() {
+            Ok(num) => num,               //verifying invalid input
+            Err(_) => continue,
+
+        };//.expect("Please type a number!");//It converts string to number -> u32
 
         println!("You guessed: {}",guess);
 

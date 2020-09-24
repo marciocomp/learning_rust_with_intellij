@@ -22,7 +22,7 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9039e2e8-c488-46c2-98af-34850d4f2897" name="Default Changelist" comment="Guessing game: the 3rd example of the book (Rust Land)." />
+    <list default="true" id="9039e2e8-c488-46c2-98af-34850d4f2897" name="Default Changelist" comment="Guessing game: the 4th example of the book (Rust Land). Add loop." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +92,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600911564042</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Guessing game: the 3rd example of the book (Rust Land). It converts string to number to compare guess and secret_number">
+      <created>1600911777590</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600911777590</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Guessing game: the 4th example of the book (Rust Land). Add loop.">
+      <created>1600911916437</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600911916437</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,7 +124,10 @@
     <MESSAGE value="Guessing game: the 1st example of the book (Rust Land)." />
     <MESSAGE value="Guessing game: the 2nd example of the book (Rust Land)." />
     <MESSAGE value="Guessing game: the 3rd example of the book (Rust Land)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Guessing game: the 3rd example of the book (Rust Land)." />
+    <MESSAGE value="Guessing game: the 3rd example of the book (Rust Land).  It converts string to number to compare guess and secret_number" />
+    <MESSAGE value="Guessing game: the 3rd example of the book (Rust Land). It converts string to number to compare guess and secret_number" />
+    <MESSAGE value="Guessing game: the 4th example of the book (Rust Land). Add loop." />
+    <option name="LAST_COMMIT_MESSAGE" value="Guessing game: the 4th example of the book (Rust Land). Add loop." />
   </component>
   <component name="WindowStateProjectService">
     <state width="1314" height="165" key="GridCell.Tab.0.bottom" timestamp="1600911521714">
