@@ -70,12 +70,28 @@ fn main() {
 
     /************BOOLEAN************/
 
-        let learning_rust = true;
-        let give_up: bool = false;
-        let success = learning_rust && !give_up;// A simple boolean operation
-        println!("Success: {}", success); // ;)
+    let learning_rust = true;
+    let give_up: bool = false;
+    let success = learning_rust && !give_up;// A simple boolean operation
+    println!("Success: {}", success); // ;)
 
-    /************BOOLEAN************/
+    /************END BOOLEAN************/
+
+    /************CHARACTER************/
+
+    let c = 'A';
+    let b: char = '\u{221a}';// Code to square root
+    let z = '\u{221b}'; // Code to cube root
+    let emoji: char  = '\u{1f913}';//To be a nerd :)
+
+    println!("C: {:X}", c as u32);// It prints the code of the table Unicode
+    println!("B: {}", b);
+    println!("Z: {}", z);
+    println!("Emoji: {}",emoji);
+
+    /************END CHARACTER************/
+
+
 
 
 }
