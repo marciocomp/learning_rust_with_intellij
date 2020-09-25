@@ -92,6 +92,32 @@ fn main() {
     /************END CHARACTER************/
 
 
+    /************TUPLE TYPES************/
+    // Tup: (id, [last name, first name], birth (mm,dd,yyyy))
+    let tup: (u128,[&str;2],(u8,u8,u64)) = (12345678,["Lopes","Marcio"],(10,14,1983));
+    let tup1 = (12345678,["Lopes","Marcio"],(10,14,1983));
+
+    println!("Tup: {:?}", tup);
+    println!("Tup1.1: {:?}",tup1.1);
+
+    /************END TUPLE TYPES************/
+
+    /************ARRAYS************/
+
+    let numbers = [1,2,3,4];//The size is defined by total of elements in the []
+    println!("Numbers: {:?}",numbers);
+
+    let numbers: [i32;20] = [0;20];//The size is defined by annotation type
+                                   //It completes all positions with 0 (zero)
+    println!("Numbers: {:?}",numbers);
+
+    let names = ["Marcio", "Lopes"];
+    println!("Names: {:?}",names);
+
+    let names: [&str; 20] = ["name";20];
+    println!("Names: {:?}",names);
+
+    /************END ARRAYS************/
 
 
 }
