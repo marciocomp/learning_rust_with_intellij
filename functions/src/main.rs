@@ -3,5 +3,5 @@ fn main() {
     another_function();
 }
 fn another_function(){
-    println!("Another function.");
+    println!("Another function.");// Testing commit to 1s_branch_functions
 }
