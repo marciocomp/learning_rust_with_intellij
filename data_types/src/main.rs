@@ -96,6 +96,11 @@ fn main() {
     // Tup: (id, [last name, first name], birth (mm,dd,yyyy))
     let tup: (u128,[&str;2],(u8,u8,u64)) = (12345678,["Lopes","Marcio"],(10,14,1983));
     let tup1 = (12345678,["Lopes","Marcio"],(10,14,1983));
+    let (x,y,z) = tup;
+
+    println!("X: {:?}",x);
+    println!("y: {:?}",y);
+    println!("z: {:?}",z);
 
     println!("Tup: {:?}", tup);
     println!("Tup1.1: {:?}",tup1.1);
