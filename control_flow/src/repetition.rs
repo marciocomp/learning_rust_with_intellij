@@ -3,6 +3,7 @@ pub fn run(){
     //     println!("Again!"); //it executes forever :0
     // }
     println!("The result is: {}", first(20));
+    second();
   }
 fn first(breaking:i32) -> i32{
     let mut count = 0;
@@ -14,4 +15,13 @@ fn first(breaking:i32) -> i32{
         }
     };
     result
+}
+fn second(){
+    let mut number = 3;
+
+    while number != 0{
+        println!("{}!",number);
+        number -=1;
+    }
+    println!("LIFTOFF");
 }
