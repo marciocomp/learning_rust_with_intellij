@@ -1,3 +1,4 @@
+mod repetition;
 fn main() {
 
     println!("Condition was {}", first());
@@ -11,7 +12,7 @@ fn main() {
     }
     println!("{}",third(a));
     println!("The value of number in fourth function is: {}", fourth());
-
+    repetition::run();
 }
 fn first() -> bool{ //1st example
     let number = 3;
